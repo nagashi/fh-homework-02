@@ -1,0 +1,13 @@
+<% @books.each do |book| %>
+  <div>
+    <h1><%= book.title %></h1><br />
+    <i><%= book.author %></i><br />
+    <p><%= book.genre %></p><br />
+    <p><%= book.publisher %></p><br />
+    <p><%= book.types %></p><br />
+    <p><%= book.year %></p><br />
+    <p><%= book.isbn %></p><br />
+  </div>
+
+  <hr />
+<% end %>
